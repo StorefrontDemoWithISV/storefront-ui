@@ -4,8 +4,8 @@
     "region": ""
   },
   "Auth-Server": {
-    "client_id":"b256c483-2ffd-4eb2-b76d-86225a84f38b",
-    "client_secret":"CFDHXidL4q"
+    "client_id":"7fe33d64-f3ee-47ce-b935-602aae038caa",
+    "client_secret":"RKm07apXZS"
   },
   "APIs": {
     "catalog": {
@@ -60,7 +60,8 @@
       "base_path": "/v2.0/factors/emailotp",
       "paths": {
         "generation": "/transient/verifications",
-        "verify": "transient/verifications"
+        "verify": "transient/verifications",
+        "instance": "gymathlete"
       },
       "require": [
         "oauth"
